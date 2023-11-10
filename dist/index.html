@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+<link rel="stylesheet" href="css/style.css">
+<body> 
+<div class="body-wrapper"> 
+<header class="header">
+<div class="header__top"><a class="logo" href="#">ROBO.SCHOOL</a>
+<nav class="menu" id="menu">
+<ul class="menu__list"> 
+<li class="menu__item"> <a class="menu__link" href="#">О школе</a></li>
+<li class="menu__item"> <a class="menu__link" href="#">Тренеры</a></li>
+<li class="menu__item"> <a class="menu__link" href="#">Стоимость</a></li>
+</ul>
+</nav>
+<div class="tel"><a class="tel__number" href="tel:+78000001122">+7 800 000 11 22</a><a class="tel__img" href="tel:+78000001122"><img src="images/tel.svg" alt=""></a>
+<button class="header__burger-btn" id="burger"><span> </span><span> </span><span> </span></button>
+</div>
+</div>
+<div class="header__content"> 
+<div class="container-header">
+<div class="header__content-info">
+<div class="header__content-left">
+<div class="header__content-title">ROBO SCHOOL</div>
+<div class="header__content-text">Курсы повышения квалификации по робототехнике для педагогов начальной школы</div><a class="header__content-btn" href="#">Записаться на курс</a>
+</div><img class="header__content-img" src="images/headerGirl.svg" alt=""><a class="header__content-btn--adaptive" href="#">Записаться на курс</a>
+</div>
+</div>
+</div>
+</header>
+<main class="main"> 
+<section class="robo__information">
+<div class="container"> 
+<div class="robo__info-title"><span class="robo__info-span"> Robo School </span> – учреждение для формирования кадрового педагогического резерва в сфере робототехники и программирования</div>
+<div class="robo__info-content"> 
+<div class="robo__info-item"> 
+<div class="robo__info-number">10</div>
+<div class="robo__info-text">УМК по различным направлениям по робототехнике</div>
+</div>
+<div class="robo__info-item"> 
+<div class="robo__info-number">20</div>
+<div class="robo__info-text">Школ, в которых запущена робототехника</div>
+</div>
+<div class="robo__info-item"> 
+<div class="robo__info-number">100</div>
+<div class="robo__info-text">Педагогов прошедших курсы повышения квалификации</div>
+</div>
+<div class="robo__info-item"> 
+<div class="robo__info-number">10 000</div>
+<div class="robo__info-text">Обученных детей на базе собственных центров</div>
+</div>
+</div>
+</div>
+</section>
+<section class="you-get"> 
+<div class="container"> 
+<div class="you-get__title">Что вы получите после курса</div>
+<div class="you-get__content"> 
+<div class="you-get__item"> 
+<div class="you-get__item-title">Удостоверение</div>
+<div class="you-get__item-text">Дающее право преподавать робототехнику для детей 6-12 лет в образовательных учреждениях</div>
+</div>
+<div class="you-get__item"> 
+<div class="you-get__item-title">Знания</div>
+<div class="you-get__item-text">По основам разработки учебно-методических комплексов<br> по робототехнике и программированию</div>
+</div>
+<div class="you-get__item"> 
+<div class="you-get__item-title-main">
+<div class="you-get__item-title">Практику</div>
+<div class="you-get__icon">i
+<div class="you-get__item--hover">При наличии свободных мест</div>
+</div>
+</div>
+<div class="you-get__item-text">Возможность пройти практику по преподаванию робототехники на базе R:ED LAB (в оффлайн или онлайн формате)</div>
+</div>
+</div>
+</div>
+</section>
+<section class="coach"> 
+<div class="container">
+<div class="coach-wrapper"> 
+<div class="coach__title">Профессиональные тренеры</div>
+<div class="swiper"> 
+<div class="swiper-wrapper"> 
+<div class="swiper-slide">
+<div class="swiper-tab__img"><img src="images/irina.jpg" alt=""></div>
+<div class="swiper-tab__name name">Ирина Лайм</div>
+<div class="swiper-tab__job job">преподаватель по робототехнике</div>
+<button class="swiper-tab__more" id="open-modal-btn">Подробнее</button>
+</div>
+<div class="swiper-slide">
+<div class="swiper-tab__img"><img src="images/marina.jpg" alt=""></div>
+<div class="swiper-tab__name name">Марина Орлова</div>
+<div class="swiper-tab__job job">преподаватель по робототехнике</div>
+<button class="swiper-tab__more" id="open-modal-btn--Marina">Подробнее</button>
+</div>
+<div class="swiper-slide">
+<div class="swiper-tab__img"><img src="images/maxim.jpg" alt=""></div>
+<div class="swiper-tab__name name">Максим Петров</div>
+<div class="swiper-tab__job job">преподаватель по программированию</div>
+<button class="swiper-tab__more" id="open-modal-btn">Подробнее</button>
+</div>
+<div class="swiper-slide">
+<div class="swiper-tab__img"><img src="images/konstantin.jpg" alt=""></div>
+<div class="swiper-tab__name name">Константин Назаров</div>
+<div class="swiper-tab__job job">преподаватель по робототехнике</div>
+<button class="swiper-tab__more" id="open-modal-btn">Подробнее</button>
+</div>
+<div class="swiper-slide">
+<div class="swiper-tab__img"><img src="images/liza.jpg" alt=""></div>
+<div class="swiper-tab__name name">Лиза Весенняя</div>
+<div class="swiper-tab__job">преподаватель по программированию</div>
+<button class="swiper-tab__more" id="open-modal-btn">Подробнее</button>
+</div>
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-btn">
+<div class="swiper-btn-prev"></div>
+<div class="swiper-btn-next"></div>
+</div>
+</div>
+</div>
+<div class="modal" id="my-modalIrina"> 
+<div class="no-scroll"></div>
+<div class="modal__box">
+<div class="modal__header">
+<div class="modal__img"><img class="modal__img-Marina" src="../images/marinaModal.jpg" alt=""></div>
+<div class="modal__header-info"> 
+<div class="modal__header-name">Марина Орлова</div>
+<div class="modal__header-profession">преподаватель по робототехнике</div>
+<div class="modal__header-web"> <a class="modal__header-webFacebook" href="!#"></a><a class="modal__header-webInstagram" href="!#"></a></div>
+</div>
+<button class="modal__close-btn" id="close-my-modal-btn">Закрыть</button>
+<button class="modal__close-btn--apadtive" id="close-my-modal-btn--adaptive"><span> </span><span></span></button>
+</div>
+<div class="modal__content"> 
+<div class="form-group">
+<div class="dropdown"> 
+<button class="dropdown__button">Образование</button>
+<ul class="dropdown__list"> 
+<li class="tabs__btn-item tabs__btn-item--active" data-button="content-1">Образование</li>
+<li class="tabs__btn-item" data-button="content-2">Опыт работы</li>
+<li class="tabs__btn-item" data-button="content-3">Награды</li>
+</ul>
+</div>
+</div>
+<div class="tabs">
+<div class="tabs__btn">
+<button class="tabs__btn-item tabs__btn-item--active" data-button="content-1">Образование</button>
+<button class="tabs__btn-item" data-button="content-2">Опыт работы</button>
+<button class="tabs__btn-item" data-button="content-3">Награды</button>
+</div>
+<div class="tabs__border"></div>
+<div class="tabs__content">  
+<div class="tabs__content-item tabs__content-item--active" id="content-1">
+<p class="tab__info">Сентябрь 1995 — Июнь 2000 <br>Санкт-Петербургский политехнический университет Петра Великого <br>Факультет: Компьютерных наук и технологий <br>Специальность: Математика и компьютерные науки <br>Форма обучения: Очная</p>
+<div class="tab__trening-info">
+<div class="tab__trening-title">Курсы и тренинги</div>
+<p class="tab__trening-text">Ноябрь 2020 — Февраль 2021 <br>Программа дополнительного образования «3D Моделирование» <br>Место проведения: Институт дополнительного образования «Политех» Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cum excepturi consequuntur praesentium tenetur esse obcaecati quo inventore nobis ab ut quidem quis soluta voluptatem cupiditate mollitia, atque facere alias.</p>
+</div>
+</div>
+<div class="tabs__content-item" id="content-2">2</div>
+<div class="tabs__content-item" id="content-3">3</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal" id="my-modalMarina"> 
+<div class="no-scroll"></div>
+<div class="modal__box">
+<div class="modal__header">
+<div class="modal__img"><img class="modal__img-Marina" src="../images/marinaModal.jpg" alt=""></div>
+<div class="modal__header-info"> 
+<div class="modal__header-name">Марина Орлова</div>
+<div class="modal__header-profession">преподаватель по робототехнике</div>
+<div class="modal__header-web"> <a class="modal__header-webFacebook" href="!#"></a><a class="modal__header-webInstagram" href="!#"></a></div>
+</div>
+<button class="modal__close-btn" id="close-my-modal-btn--Marina">Закрыть</button>
+<button class="modal__close-btn--apadtive" id="close-my-modal-btn--adaptiveMarina"><span> </span><span></span></button>
+</div>
+<div class="modal__content"> 
+<div class="form-group">
+<div class="dropdown"> 
+<button class="dropdown__button">Образование</button>
+<ul class="dropdown__list"> 
+<li class="tabs__btn-item tabs__btn-item--active" data-button="content-4">Образование</li>
+<li class="tabs__btn-item" data-button="content-5">Опыт работы</li>
+<li class="tabs__btn-item" data-button="content-6">Награды</li>
+</ul>
+</div>
+</div>
+<div class="tabs">
+<div class="tabs__btn">
+<button class="tabs__btn-item tabs__btn-item--active" data-button="content-4">Образование</button>
+<button class="tabs__btn-item" data-button="content-5">Опыт работы</button>
+<button class="tabs__btn-item" data-button="content-6">Награды</button>
+</div>
+<div class="tabs__border"></div>
+<div class="tabs__content">  
+<div class="tabs__content-item tabs__content-item--active" id="content-4">
+<p class="tab__info">Сентябрь 1995 — Июнь 2000 <br>Санкт-Петербургский политехнический университет Петра Великого <br>Факультет: Компьютерных наук и технологий <br>Специальность: Математика и компьютерные науки <br>Форма обучения: Очная</p>
+<div class="tab__trening-info">
+<div class="tab__trening-title">Курсы и тренинги</div>
+<p class="tab__trening-text">Ноябрь 2020 — Февраль 2021 <br>Программа дополнительного образования «3D Моделирование» <br>Место проведения: Институт дополнительного образования «Политех» Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cum excepturi consequuntur praesentium tenetur esse obcaecati quo inventore nobis ab ut quidem quis soluta voluptatem cupiditate mollitia, atque facere alias.</p>
+</div>
+</div>
+<div class="tabs__content-item" id="content-5">2</div>
+<div class="tabs__content-item" id="content-6">3</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="offer"> 
+<div class="container">
+<div class="offer__wrapper"> 
+<div class="offer__title">Выберите нужный пакет</div>
+<div class="offer__content"> 
+<div class="offer__item offer__item--pro">   
+<div class="offer__item-title offer__item-title--pro">– PRO –</div>
+<div class="offer__item-price"> 20.000 ₽</div>
+<div class="offer__item-text">УМК по робототетхнике <br>и программированию</div>
+<button class="offer__item-btn">Оставить заявку</button>
+</div>
+<div class="offer__item"> 
+<div class="offer__item-title">– ROBO –</div>
+<div class="offer__item-price"> 15.000 ₽</div>
+<div class="offer__item-text">УМК по робототетхнике</div>
+<button class="offer__item-btn">Оставить заявку</button>
+</div>
+<div class="offer__item"> 
+<div class="offer__item-title">– PROG –</div>
+<div class="offer__item-price"> 10.000 ₽</div>
+<div class="offer__item-text">УМК по программированию</div>
+<button class="offer__item-btn">Оставить заявку</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="buy"> 
+<div class="container"> 
+<div class="buy__wrapper"> 
+<div class="buy__content"> 
+<div class="buy__title">Запишитесь на курс <br>со скидкой 10%</div>
+<div class="buy__text">Акция действительна до 10 марта 2022 года</div>
+</div>
+<div class="buy__form"> 
+<input class="form__name" type="text" placeholder="Имя" required>
+<input class="form__tel" type="tel" placeholder="Телефон" required>
+<input class="form__email" type="email" placeholder="E-mail" required>
+<button class="send-btn">Оформить заявку</button>
+</div>
+</div>
+</div>
+</section>
+<section class="footer"> 
+<div class="footer__info"> 
+<div class="footer__logo">ROBO.SCHOOL</div>
+<div class="footer__text">© ROBO.SCHOOL</div>
+</div><a class="footer__tel" href="tel:+78000001122">+7 800 000 11 22</a>
+<div class="footer__text--adaptive">© ROBO.SCHOOL</div>
+</section>
+</main><script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</div>
+</body>
+</html>
